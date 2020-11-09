@@ -17,8 +17,8 @@ class bob {
         push();
         translate(pos.x, pos.y);
         rotate(angle);
-    
-       imageMode(CENTER);
+        ellipseMode(RADIUS);
+        ellipse(0,0,this.radius);   
         pop();
       }
     };
